@@ -26,9 +26,9 @@ public class Student {
 
     public String status() {
         double avg = average();
-        if (avg >= 4.5) return "отличник";
-        if (avg >= 3.5) return "хорошист";
-        if (avg >= 2.5) return "троечник";
-        return "двоечник";
+        if (avg >= 4.5) return "Top student";
+        if (avg >= 3.5) return "Good Student";
+        if (avg >= 2.5) return "Ordenary Student";
+        return "Bad Student";
     }
 }
